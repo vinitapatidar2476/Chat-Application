@@ -1,0 +1,26 @@
+{
+  "name": "talk-a-tive",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "vinita patidar",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "server": "nodemon backend/server.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "colors": "^1.4.0",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.2",
+    "nodemon": "^3.1.10",
+    "react-toastify": "^11.0.5",
+    "socket.io": "^4.8.1"
+  }
+}
