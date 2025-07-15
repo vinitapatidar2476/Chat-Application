@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --openssl-legacy-provider",
-    "build": "vite build --openssl-legacy-provider",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "node --openssl-legacy-provider ./node_modules/vite/bin/vite.js",
+    "build": "node --openssl-legacy-provider ./node_modules/vite/bin/vite.js build",
+    "preview": "node --openssl-legacy-provider ./node_modules/vite/bin/vite.js preview"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
